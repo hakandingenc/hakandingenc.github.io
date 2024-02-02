@@ -1,0 +1,24 @@
+title: Hakan Dingenc
+author: Hakan Dingenc
+email: hakan@cs.wisc.edu
+description: >-
+  Hakan's Personal Website
+baseurl: ""
+url: "https://hakandingenc.github.io"
+twitter_username: HakanDingenc
+github_username:  hakandingenc
+
+# Build settings
+markdown: kramdown
+kramdown:
+  footnote_backlink: '&#8617;&#65038;'
+disqus:
+  shortname: hakan-19
+theme: minima
+plugins:
+  - jekyll-feed
+
+header_pages:
+-
+
+permalink: /blog/:year/:month/:day/:title:output_ext

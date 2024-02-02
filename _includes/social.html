@@ -1,0 +1,8 @@
+{%- if site.email -%}<a class="u-email" href="mailto:{{ site.email }}"><svg viewBox="0 0 10 10" class="svg-icon"><text x=0 y=7 font-size="9" font-family="Arial">@</text></svg></a>{%- endif -%}
+{%- if site.github_username -%}<a href="https://github.com/{{ site.github_username| cgi_escape | escape }}"><svg viewBox="0 0 17 17" class="svg-icon"><use href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg></a>{%- endif -%}
+{%- if site.twitter_username -%}<a href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}"><svg viewBox="0 0 17 17" class="svg-icon"><use href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use></svg></a>{%- endif -%}
+{%- if site.spotify_username -%}<a href="https://open.spotify.com/user/{{ site.spotify_username| cgi_escape | escape }}"><svg viewBox="0 0 180 180" class="svg-icon"><use href="{{ '/assets/minima-social-icons.svg#spotify' | relative_url }}"></use></svg></a>{%- endif -%}
+{%- assign resume = site.static_files | where: "basename", "resume" | first -%}
+{%- if resume -%}
+    <a href="{{ resume.path }}"><svg viewBox="0 0 480 480" class="svg-icon"><use href="{{ '/assets/minima-social-icons.svg#resume' | relative_url }}"></use></svg></a>
+{%- endif -%}
