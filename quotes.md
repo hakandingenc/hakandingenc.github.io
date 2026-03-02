@@ -12,12 +12,6 @@ fail by default.
 ($)
 J.K. Rowling
 ($)
-In short, a PhD is a ticket to a life of research and exploration, a life of
-learning for learning’s sake, and a life of sharing the joy of discovery with
-like-minded people.
-($)
-Matthias Felleisen
-($)
 The man truly conversant with life knows, against all appearances, that there is a remedy for every wrong, and that every wall is a gate.
 ($)
 Ralph Waldo Emerson
